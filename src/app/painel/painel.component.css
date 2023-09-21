@@ -1,0 +1,25 @@
+.bg {
+    background-color: #d6eadf;
+}
+
+.container-salvar {
+    display:flex; 
+    justify-content: flex-end;
+    margin-left: 3px;   
+    margin-top: 5px;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.btn {
+    background: #eac4d5;
+    border: solid 1px #b8e0d2;
+}
+
+.tentativa {
+    display: flex;
+    justify-content: flex-end;
+}

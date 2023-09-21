@@ -1,0 +1,38 @@
+<div class="bg container-md">
+
+    <div class="jumbotron">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <app-progresso [prog]="barraDeProgresso"></app-progresso>
+            </div>
+            <div class="tentativa col-sm-6">
+                <app-tentativas [tentativas]="QtdTentativas"></app-tentativas>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="col">
+                <br><br>
+                <h6>{{ instrucao }}</h6>
+                <p>{{ rodadaFrase.fraseEng }}</p>
+
+                <div class="form-group">
+                    <textarea 
+                        class="form-control" id="text" rows="3"
+                        (input)="atualizaResposta($event)"    
+                        [value]="respostaFinal"
+                    ></textarea>
+                </div>
+
+                <div class="container-salvar">
+                     <button 
+                        type="button" id="id" class="btn btn-dark btn-sm" (click)="verificaResposta()">Verificar                        
+                    </button>
+                </div>
+
+            </div>            
+        </div>
+
+    </div>
+
+</div>

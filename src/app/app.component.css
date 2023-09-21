@@ -1,0 +1,15 @@
+.col {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.btn {
+    background-color: #b8e0d2;
+}
